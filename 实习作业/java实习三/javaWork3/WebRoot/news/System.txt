@@ -1,0 +1,144 @@
+@charset "utf-8";
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #f3f4f5;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ 元素/标签选择器 ~~ */
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	     /* 删除上边距可以解决边距会超出其包含的 div 的问题。*/
+	padding-right: 15px;
+	padding-left: 15px; /* 向 div 内的元素侧边（而不是 div 自身）添加填充可避免使用任何方框模型数学。*/
+}
+a img {
+	border: none;
+}
+
+/* ~~ 站点链接的样式必须保持此顺序，包括用于创建悬停效果的选择器组在内。 ~~ */
+a:link {
+	color:#414958;
+	text-decoration: underline; /* 下划线*/
+}
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* 此组选择器将为键盘导航者提供与鼠标使用者相同的悬停体验。 */
+	text-decoration: none;
+}
+
+/* ~~ 此容器包含所有其它 div，并依百分比设定其宽度 ~~ */
+.container {
+	width: 80%;
+	max-width: 1260px;           /* 可能需要最大宽度*/
+	min-width: 780px;            /* 可能需要最小宽度*/
+	background-color: #f3f4f5;
+	margin: 0 auto;              /* 侧边的自动值与宽度结合使用，可以将布局居中对齐。*/
+}
+
+/* ~~ 标题未指定宽度。它将扩展到布局的完整宽度。标题包含一个图像占位符，该占位符应替换为您自己的链接徽标 ~~ */
+.header {
+	background-color: #f3f4f5;
+}
+
+.sidebar1 {
+	float: left;
+	width: 20%;
+        min-height: 800px;
+	background-color: #93A5C4;
+	padding-bottom: 10px;
+}
+.content {
+	width: 79%;
+	float: right;
+	border: thin outset #cdcdcd;
+	background-color: #FFF;
+        min-height: 800px;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+}
+
+/* ~~ 此分组的选择器为 .content 区域中的列表提供了空间 ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* 此填充反映上述标题和段落规则中的右填充。填充放置于下方可用于间隔列表中其它元素，置于左侧可用于创建缩进。 */
+}
+
+/* ~~ 导航列表样式 ~~ */
+ul.nav {
+	list-style: none;           /* 删除列表标记 */
+	border-top: 1px solid #666; /* 为链接创建上边框 – 使用下边框将所有其它项放置在 LI 中 */
+	margin-bottom: 15px;        /* 在下面内容的导航之间创建间距 */
+}
+ul.nav li {
+	border-bottom: 1px solid #666; /* 按钮间隔 */
+}
+ul.nav a, ul.nav a:visited {       /* 对这些选择器进行分组可确保链接即使在访问之后也能保持其按钮外观 */
+	padding: 40px 30px 40px 30px;  /*上右下左*/
+	display: block;                /* 为链接赋予块属性，使整个区域都可以响应鼠标单击操作。 */
+	text-decoration: none;
+	background-color: #8090AB;
+	color: #000;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /*鼠标或键盘触碰时改变的颜色*/
+	background-color: #6F7D94;
+	color: #FFF;
+}
+
+/* ~~ 脚注 ~~ */
+.footer {
+	padding: 10px 0;
+	background-color: #6F7D94;
+	position: relative;             /* 使 IE6 hasLayout 以正确方式进行清除 */
+	clear: both;                    /* 此清除属性强制 .container 了解列的结束位置以及包含列的位置 */
+}
+
+/* ~~ 其它浮动/固定/清除类 ~~ */
+.fltrt {                            /* 可用于在页面中使元素向右浮动。浮动元素必须位于其在页面上的相邻元素之前。 */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {                           /* 可用于在页面中使元素向左浮动。浮动元素必须位于其在页面上的相邻元素之前。 */
+	float: left;
+	margin-right: 8px;
+}
+
+.fix {                              /*固定的动作控件类*/
+	position: fixed;
+	float: right;
+	bottom: 100px;
+	right: 10%;
+	width: 150px;
+	height: auto;
+	background-color: #e9e9e9;
+	border: thin outset #cdcdcd;
+}
+.clearfloat {                      /* 如果从 #container 中删除或移出了 #footer，则可以将此类放置在 <br /> 或空 div 中，作为 #container 内最后一个浮动 div 之后的最终元素 */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+/* ~~文字类~~ */
+
+.Label1 {                             /*说明型文字*/
+	font-size: 14px;
+	color: #000000;
+	font-family: "微软雅黑";
+	margin-left: 50px;
+}
+.Label2{                              /*信息标签型文字*/
+	font-size: 14px;
+	color: #603522;
+	font-family: "微软雅黑";
+	margin-left: 50px;
+}

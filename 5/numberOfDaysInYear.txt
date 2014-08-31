@@ -1,0 +1,7 @@
+public static int numberOfDaysInYear(int year){
+	boolean isLeapYear=(((year%4==0)&&(year%100!=0))||(year%400==0));
+	if(isLeapYear)
+		return 366;
+	else	
+		return 365;
+}

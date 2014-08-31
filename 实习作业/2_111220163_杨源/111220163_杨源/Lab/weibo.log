@@ -1,0 +1,54 @@
+0    DEBUG [2013-11-19 19:51:43]  Request:
+0    DEBUG [2013-11-19 19:51:43]  POSThttps://api.weibo.com/2/statuses/update.json
+32   DEBUG [2013-11-19 19:51:43]  Authorization: OAuth2 2.00DhZukC0nbQEb4e1ccefcfdJ2MgsC
+32   DEBUG [2013-11-19 19:51:43]  API-RemoteIP: 172.26.43.102
+3433 DEBUG [2013-11-19 19:51:46]  Response:
+3433 DEBUG [2013-11-19 19:51:46]  https StatusCode:200
+3433 DEBUG [2013-11-19 19:51:46]  Server:nginx/1.2.0
+3433 DEBUG [2013-11-19 19:51:46]  Date:Tue, 19 Nov 2013 11:51:47 GMT
+3433 DEBUG [2013-11-19 19:51:46]  Content-Type:application/json;charset=UTF-8
+3433 DEBUG [2013-11-19 19:51:46]  Transfer-Encoding:chunked
+3433 DEBUG [2013-11-19 19:51:46]  Connection:keep-alive
+3433 DEBUG [2013-11-19 19:51:46]  Api-Server-IP:10.77.108.48
+3433 DEBUG [2013-11-19 19:51:46]  Vary:Accept-Encoding
+3433 DEBUG [2013-11-19 19:51:46]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+3433 DEBUG [2013-11-19 19:51:46]  SINA-TS:NGE4OGMzNjggMCAxIDEgNiAyOTUK
+3433 WARN  [2013-11-19 19:51:46]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+3448 DEBUG [2013-11-19 19:51:46]  {"created_at":"Tue Nov 19 19:51:46 +0800 2013","id":3646437487005562,"mid":"3646437487005562","idstr":"3646437487005562","text":"788","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2525460697,"idstr":"2525460697","class":1,"screen_name":"悲伤的一血","name":"悲伤的一血","province":"32","city":"1","location":"江苏 南京","description":"魔非魔，道非道，善恶在人心 情非情，欲非欲，姻缘由天定","url":"","profile_image_url":"http://tp2.sinaimg.cn/2525460697/50/5654838082/1","profile_url":"u/2525460697","domain":"","weihao":"","gender":"m","followers_count":16,"friends_count":11,"statuses_count":31,"favourites_count":0,"created_at":"Sat Mar 31 17:58:41 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp2.sinaimg.cn/2525460697/180/5654838082/1","avatar_hd":"http://tp2.sinaimg.cn/2525460697/180/5654838082/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":5,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+0    DEBUG [2013-11-19 20:00:23]  Request:
+0    DEBUG [2013-11-19 20:00:23]  POSThttps://api.weibo.com/2/statuses/update.json
+23   DEBUG [2013-11-19 20:00:23]  Authorization: OAuth2 2.00DhZukC0nbQEb4e1ccefcfdJ2MgsC
+23   DEBUG [2013-11-19 20:00:23]  API-RemoteIP: 172.26.43.102
+371  DEBUG [2013-11-19 20:00:23]  Response:
+371  DEBUG [2013-11-19 20:00:23]  https StatusCode:200
+371  DEBUG [2013-11-19 20:00:23]  Server:nginx/1.2.0
+371  DEBUG [2013-11-19 20:00:23]  Date:Tue, 19 Nov 2013 12:00:24 GMT
+371  DEBUG [2013-11-19 20:00:23]  Content-Type:application/json;charset=UTF-8
+371  DEBUG [2013-11-19 20:00:23]  Transfer-Encoding:chunked
+372  DEBUG [2013-11-19 20:00:23]  Connection:keep-alive
+372  DEBUG [2013-11-19 20:00:23]  Api-Server-IP:10.77.108.45
+372  DEBUG [2013-11-19 20:00:23]  Vary:Accept-Encoding
+372  DEBUG [2013-11-19 20:00:23]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+372  DEBUG [2013-11-19 20:00:23]  SINA-TS:NGI4OGMzNjggMCAxIDEgOCAxODMK
+376  WARN  [2013-11-19 20:00:23]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+377  DEBUG [2013-11-19 20:00:23]  {"created_at":"Tue Nov 19 20:00:22 +0800 2013","id":3646439655639596,"mid":"3646439655639596","idstr":"3646439655639596","text":"321124214","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2525460697,"idstr":"2525460697","class":1,"screen_name":"悲伤的一血","name":"悲伤的一血","province":"32","city":"1","location":"江苏 南京","description":"魔非魔，道非道，善恶在人心 情非情，欲非欲，姻缘由天定","url":"","profile_image_url":"http://tp2.sinaimg.cn/2525460697/50/5654838082/1","profile_url":"u/2525460697","domain":"","weihao":"","gender":"m","followers_count":16,"friends_count":11,"statuses_count":31,"favourites_count":0,"created_at":"Sat Mar 31 17:58:41 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp2.sinaimg.cn/2525460697/180/5654838082/1","avatar_hd":"http://tp2.sinaimg.cn/2525460697/180/5654838082/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":5,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+0    DEBUG [2013-11-19 20:21:00]  Request:
+1    DEBUG [2013-11-19 20:21:00]  POSThttps://api.weibo.com/2/statuses/update.json
+37   DEBUG [2013-11-19 20:21:00]  Authorization: OAuth2 2.00DhZukC0nbQEb4e1ccefcfdJ2MgsC
+37   DEBUG [2013-11-19 20:21:00]  API-RemoteIP: 172.26.43.102
+707  DEBUG [2013-11-19 20:21:01]  Response:
+707  DEBUG [2013-11-19 20:21:01]  https StatusCode:200
+707  DEBUG [2013-11-19 20:21:01]  Server:nginx/1.2.0
+707  DEBUG [2013-11-19 20:21:01]  Date:Tue, 19 Nov 2013 12:21:02 GMT
+707  DEBUG [2013-11-19 20:21:01]  Content-Type:application/json;charset=UTF-8
+707  DEBUG [2013-11-19 20:21:01]  Transfer-Encoding:chunked
+707  DEBUG [2013-11-19 20:21:01]  Connection:keep-alive
+709  DEBUG [2013-11-19 20:21:01]  Api-Server-IP:10.77.108.55
+710  DEBUG [2013-11-19 20:21:01]  Vary:Accept-Encoding
+710  DEBUG [2013-11-19 20:21:01]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+710  DEBUG [2013-11-19 20:21:01]  SINA-TS:NGE4OGMzNjggMCAxIDEgNiAyMjUK
+712  WARN  [2013-11-19 20:21:01]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+713  DEBUG [2013-11-19 20:21:01]  {"created_at":"Tue Nov 19 20:21:01 +0800 2013","id":3646444847976228,"mid":"3646444847976228","idstr":"3646444847976228","text":"123","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2525460697,"idstr":"2525460697","class":1,"screen_name":"悲伤的一血","name":"悲伤的一血","province":"32","city":"1","location":"江苏 南京","description":"魔非魔，道非道，善恶在人心 情非情，欲非欲，姻缘由天定","url":"","profile_image_url":"http://tp2.sinaimg.cn/2525460697/50/5654838082/1","profile_url":"u/2525460697","domain":"","weihao":"","gender":"m","followers_count":16,"friends_count":11,"statuses_count":31,"favourites_count":0,"created_at":"Sat Mar 31 17:58:41 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp2.sinaimg.cn/2525460697/180/5654838082/1","avatar_hd":"http://tp2.sinaimg.cn/2525460697/180/5654838082/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":5,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+

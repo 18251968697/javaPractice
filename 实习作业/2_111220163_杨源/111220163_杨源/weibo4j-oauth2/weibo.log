@@ -1,0 +1,235 @@
+0    DEBUG [2013-11-14 23:08:04]  Request:
+1    DEBUG [2013-11-14 23:08:04]  POSThttps://api.weibo.com/2/statuses/update.json
+69   DEBUG [2013-11-14 23:08:04]  Authorization: OAuth2 xxxxxxxxxxxxxxx
+69   DEBUG [2013-11-14 23:08:04]  API-RemoteIP: 169.254.223.61
+561  DEBUG [2013-11-14 23:08:05]  Response:
+562  DEBUG [2013-11-14 23:08:05]  https StatusCode:403
+562  DEBUG [2013-11-14 23:08:05]  Server:nginx/1.2.0
+562  DEBUG [2013-11-14 23:08:05]  Date:Thu, 14 Nov 2013 15:07:59 GMT
+562  DEBUG [2013-11-14 23:08:05]  Content-Type:application/json;charset=UTF-8
+562  DEBUG [2013-11-14 23:08:05]  Transfer-Encoding:chunked
+562  DEBUG [2013-11-14 23:08:05]  Connection:keep-alive
+562  DEBUG [2013-11-14 23:08:05]  Api-Server-IP:10.77.108.51
+562  DEBUG [2013-11-14 23:08:05]  Vary:Accept-Encoding
+562  DEBUG [2013-11-14 23:08:05]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+563  DEBUG [2013-11-14 23:08:05]  SINA-TS:NGE4OGMzNjggMCAxIDEgOSA2Cg==
+565  WARN  [2013-11-14 23:08:05]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+565  DEBUG [2013-11-14 23:08:05]  {"error":"invalid_access_token","error_code":21332,"request":"/2/statuses/update.json"}
+
+0    DEBUG [2013-11-14 23:08:39]  Request:
+0    DEBUG [2013-11-14 23:08:39]  POSThttps://api.weibo.com/2/statuses/update.json
+66   DEBUG [2013-11-14 23:08:39]  Authorization: OAuth2 2.00sd2jTCi8kubC8627e857ea0KIS6x
+67   DEBUG [2013-11-14 23:08:39]  API-RemoteIP: 169.254.223.61
+1215 DEBUG [2013-11-14 23:08:40]  Response:
+1216 DEBUG [2013-11-14 23:08:40]  https StatusCode:200
+1216 DEBUG [2013-11-14 23:08:40]  Server:nginx/1.2.0
+1216 DEBUG [2013-11-14 23:08:40]  Date:Thu, 14 Nov 2013 15:08:34 GMT
+1216 DEBUG [2013-11-14 23:08:40]  Content-Type:application/json;charset=UTF-8
+1216 DEBUG [2013-11-14 23:08:40]  Transfer-Encoding:chunked
+1216 DEBUG [2013-11-14 23:08:40]  Connection:keep-alive
+1216 DEBUG [2013-11-14 23:08:40]  Api-Server-IP:10.77.108.40
+1217 DEBUG [2013-11-14 23:08:40]  Vary:Accept-Encoding
+1217 DEBUG [2013-11-14 23:08:40]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+1217 DEBUG [2013-11-14 23:08:40]  SINA-TS:NGQ4OGMzNjggMCAxIDEgNyA2OTgK
+1218 WARN  [2013-11-14 23:08:40]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+1220 DEBUG [2013-11-14 23:08:40]  {"created_at":"Thu Nov 14 23:08:32 +0800 2013","id":3644675069864448,"mid":"3644675069864448","idstr":"3644675069864448","text":"慧慧的通过新浪微博开放平台发送的第一条微博，哈哈~~","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2271587364,"idstr":"2271587364","class":1,"screen_name":"风聆尺素","name":"风聆尺素","province":"32","city":"9","location":"江苏 盐城","description":"","url":"","profile_image_url":"http://tp1.sinaimg.cn/2271587364/50/5606966675/1","profile_url":"u/2271587364","domain":"","weihao":"","gender":"m","followers_count":9,"friends_count":10,"statuses_count":20,"favourites_count":1,"created_at":"Wed Jul 27 20:28:43 +0800 2011","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2271587364/180/5606966675/1","avatar_hd":"http://tp1.sinaimg.cn/2271587364/180/5606966675/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":0,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+1    DEBUG [2013-11-14 23:48:39]  Request:
+1    DEBUG [2013-11-14 23:48:39]  POSThttps://api.weibo.com/2/statuses/update.json
+140  DEBUG [2013-11-14 23:48:39]  Authorization: OAuth2 2.00sd2jTCi8kubC8627e857ea0KIS6x
+140  DEBUG [2013-11-14 23:48:39]  API-RemoteIP: 169.254.223.61
+1072 DEBUG [2013-11-14 23:48:40]  Response:
+1073 DEBUG [2013-11-14 23:48:40]  https StatusCode:200
+1073 DEBUG [2013-11-14 23:48:40]  Server:nginx/1.2.0
+1073 DEBUG [2013-11-14 23:48:40]  Date:Thu, 14 Nov 2013 15:48:34 GMT
+1073 DEBUG [2013-11-14 23:48:40]  Content-Type:application/json;charset=UTF-8
+1073 DEBUG [2013-11-14 23:48:40]  Transfer-Encoding:chunked
+1073 DEBUG [2013-11-14 23:48:40]  Connection:keep-alive
+1073 DEBUG [2013-11-14 23:48:40]  Api-Server-IP:10.77.108.39
+1074 DEBUG [2013-11-14 23:48:40]  Vary:Accept-Encoding
+1074 DEBUG [2013-11-14 23:48:40]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+1074 DEBUG [2013-11-14 23:48:40]  SINA-TS:NDg4OGMzNjggMCAxIDEgNyAzNjkK
+1076 WARN  [2013-11-14 23:48:40]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+1079 DEBUG [2013-11-14 23:48:40]  {"created_at":"Thu Nov 14 23:48:32 +0800 2013","id":3644685136068731,"mid":"3644685136068731","idstr":"3644685136068731","text":"杨征的通过新浪微博开放平台发送的第一条微博，哈哈~~","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2271587364,"idstr":"2271587364","class":1,"screen_name":"风聆尺素","name":"风聆尺素","province":"32","city":"9","location":"江苏 盐城","description":"","url":"","profile_image_url":"http://tp1.sinaimg.cn/2271587364/50/5606966675/1","profile_url":"u/2271587364","domain":"","weihao":"","gender":"m","followers_count":9,"friends_count":10,"statuses_count":20,"favourites_count":1,"created_at":"Wed Jul 27 20:28:43 +0800 2011","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2271587364/180/5606966675/1","avatar_hd":"http://tp1.sinaimg.cn/2271587364/180/5606966675/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":0,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+0    DEBUG [2013-11-14 23:49:11]  Request:
+1    DEBUG [2013-11-14 23:49:11]  POSThttps://api.weibo.com/2/statuses/update.json
+66   DEBUG [2013-11-14 23:49:11]  Authorization: OAuth2 2.00sd2jTCi8kubC8627e857ea0KIS6x
+67   DEBUG [2013-11-14 23:49:11]  API-RemoteIP: 169.254.223.61
+711  DEBUG [2013-11-14 23:49:11]  Response:
+711  DEBUG [2013-11-14 23:49:11]  https StatusCode:200
+711  DEBUG [2013-11-14 23:49:11]  Server:nginx/1.2.0
+711  DEBUG [2013-11-14 23:49:11]  Date:Thu, 14 Nov 2013 15:49:06 GMT
+711  DEBUG [2013-11-14 23:49:11]  Content-Type:application/json;charset=UTF-8
+712  DEBUG [2013-11-14 23:49:11]  Transfer-Encoding:chunked
+712  DEBUG [2013-11-14 23:49:11]  Connection:keep-alive
+712  DEBUG [2013-11-14 23:49:11]  Api-Server-IP:10.77.108.40
+712  DEBUG [2013-11-14 23:49:11]  Vary:Accept-Encoding
+712  DEBUG [2013-11-14 23:49:11]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+712  DEBUG [2013-11-14 23:49:11]  SINA-TS:NGQ4OGMzNjggMCAxIDEgOCAxNjkK
+714  WARN  [2013-11-14 23:49:11]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+716  DEBUG [2013-11-14 23:49:11]  {"created_at":"Thu Nov 14 23:49:04 +0800 2013","id":3644685266316287,"mid":"3644685266316287","idstr":"3644685266316287","text":"heiio!NJU","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2271587364,"idstr":"2271587364","class":1,"screen_name":"风聆尺素","name":"风聆尺素","province":"32","city":"9","location":"江苏 盐城","description":"","url":"","profile_image_url":"http://tp1.sinaimg.cn/2271587364/50/5606966675/1","profile_url":"u/2271587364","domain":"","weihao":"","gender":"m","followers_count":9,"friends_count":10,"statuses_count":20,"favourites_count":1,"created_at":"Wed Jul 27 20:28:43 +0800 2011","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2271587364/180/5606966675/1","avatar_hd":"http://tp1.sinaimg.cn/2271587364/180/5606966675/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":0,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+0    DEBUG [2013-11-14 23:53:50]  Request:
+1    DEBUG [2013-11-14 23:53:50]  POSThttps://api.weibo.com/2/statuses/update.json
+62   DEBUG [2013-11-14 23:53:50]  Authorization: OAuth2 2.00sd2jTCi8kubC8627e857ea0KIS6x
+62   DEBUG [2013-11-14 23:53:50]  API-RemoteIP: 169.254.223.61
+723  DEBUG [2013-11-14 23:53:51]  Response:
+723  DEBUG [2013-11-14 23:53:51]  https StatusCode:200
+723  DEBUG [2013-11-14 23:53:51]  Server:nginx/1.2.0
+723  DEBUG [2013-11-14 23:53:51]  Date:Thu, 14 Nov 2013 15:53:45 GMT
+723  DEBUG [2013-11-14 23:53:51]  Content-Type:application/json;charset=UTF-8
+723  DEBUG [2013-11-14 23:53:51]  Transfer-Encoding:chunked
+723  DEBUG [2013-11-14 23:53:51]  Connection:keep-alive
+723  DEBUG [2013-11-14 23:53:51]  Api-Server-IP:10.77.108.54
+724  DEBUG [2013-11-14 23:53:51]  Vary:Accept-Encoding
+724  DEBUG [2013-11-14 23:53:51]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+726  DEBUG [2013-11-14 23:53:51]  SINA-TS:NGE4OGMzNjggMCAxIDEgNyAxNzcK
+729  WARN  [2013-11-14 23:53:51]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+732  DEBUG [2013-11-14 23:53:51]  {"created_at":"Thu Nov 14 23:53:43 +0800 2013","id":3644686440809759,"mid":"3644686440809759","idstr":"3644686440809759","text":"heiio!NJU","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2271587364,"idstr":"2271587364","class":1,"screen_name":"风聆尺素","name":"风聆尺素","province":"32","city":"9","location":"江苏 盐城","description":"","url":"","profile_image_url":"http://tp1.sinaimg.cn/2271587364/50/5606966675/1","profile_url":"u/2271587364","domain":"","weihao":"","gender":"m","followers_count":9,"friends_count":10,"statuses_count":20,"favourites_count":1,"created_at":"Wed Jul 27 20:28:43 +0800 2011","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2271587364/180/5606966675/1","avatar_hd":"http://tp1.sinaimg.cn/2271587364/180/5606966675/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":0,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+0    DEBUG [2013-11-14 23:54:06]  Request:
+1    DEBUG [2013-11-14 23:54:06]  POSThttps://api.weibo.com/2/statuses/update.json
+91   DEBUG [2013-11-14 23:54:06]  Authorization: OAuth2 2.00sd2jTCi8kubC8627e857ea0KIS6x
+91   DEBUG [2013-11-14 23:54:06]  API-RemoteIP: 169.254.223.61
+801  DEBUG [2013-11-14 23:54:07]  Response:
+801  DEBUG [2013-11-14 23:54:07]  https StatusCode:400
+801  DEBUG [2013-11-14 23:54:07]  Server:nginx/1.2.0
+801  DEBUG [2013-11-14 23:54:07]  Date:Thu, 14 Nov 2013 15:54:01 GMT
+801  DEBUG [2013-11-14 23:54:07]  Content-Type:application/json;charset=UTF-8
+801  DEBUG [2013-11-14 23:54:07]  Transfer-Encoding:chunked
+802  DEBUG [2013-11-14 23:54:07]  Connection:keep-alive
+802  DEBUG [2013-11-14 23:54:07]  Api-Server-IP:10.77.108.57
+802  DEBUG [2013-11-14 23:54:07]  Vary:Accept-Encoding
+802  DEBUG [2013-11-14 23:54:07]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+802  DEBUG [2013-11-14 23:54:07]  SINA-TS:NGE4OGMzNjggMCAxIDEgNiAxMgo=
+804  WARN  [2013-11-14 23:54:07]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+805  DEBUG [2013-11-14 23:54:07]  {"error":"repeat content!","error_code":20019,"request":"/2/statuses/update.json"}
+
+0    DEBUG [2013-11-14 23:54:41]  Request:
+1    DEBUG [2013-11-14 23:54:41]  POSThttps://api.weibo.com/2/statuses/update.json
+64   DEBUG [2013-11-14 23:54:41]  Authorization: OAuth2 2.00sd2jTCi8kubC8627e857ea0KIS6x
+64   DEBUG [2013-11-14 23:54:41]  API-RemoteIP: 169.254.223.61
+822  DEBUG [2013-11-14 23:54:42]  Response:
+822  DEBUG [2013-11-14 23:54:42]  https StatusCode:200
+822  DEBUG [2013-11-14 23:54:42]  Server:nginx/1.2.0
+822  DEBUG [2013-11-14 23:54:42]  Date:Thu, 14 Nov 2013 15:54:36 GMT
+822  DEBUG [2013-11-14 23:54:42]  Content-Type:application/json;charset=UTF-8
+822  DEBUG [2013-11-14 23:54:42]  Transfer-Encoding:chunked
+822  DEBUG [2013-11-14 23:54:42]  Connection:keep-alive
+822  DEBUG [2013-11-14 23:54:42]  Api-Server-IP:10.77.108.47
+823  DEBUG [2013-11-14 23:54:42]  Vary:Accept-Encoding
+823  DEBUG [2013-11-14 23:54:42]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+823  DEBUG [2013-11-14 23:54:42]  SINA-TS:NGE4OGMzNjggMCAxIDEgMTEgMjQxCg==
+824  WARN  [2013-11-14 23:54:42]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+826  DEBUG [2013-11-14 23:54:42]  {"created_at":"Thu Nov 14 23:54:34 +0800 2013","id":3644686654252595,"mid":"3644686654252595","idstr":"3644686654252595","text":"heiio, world!","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2271587364,"idstr":"2271587364","class":1,"screen_name":"风聆尺素","name":"风聆尺素","province":"32","city":"9","location":"江苏 盐城","description":"","url":"","profile_image_url":"http://tp1.sinaimg.cn/2271587364/50/5606966675/1","profile_url":"u/2271587364","domain":"","weihao":"","gender":"m","followers_count":9,"friends_count":10,"statuses_count":20,"favourites_count":1,"created_at":"Wed Jul 27 20:28:43 +0800 2011","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2271587364/180/5606966675/1","avatar_hd":"http://tp1.sinaimg.cn/2271587364/180/5606966675/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":0,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+0    INFO  [2013-11-19 12:43:42]  code: 23d58e8c13fe9f1c52d9736d4a048e96
+0    DEBUG [2013-11-19 12:43:42]  Request:
+0    DEBUG [2013-11-19 12:43:42]  POSThttps://api.weibo.com/oauth2/access_token
+1327 DEBUG [2013-11-19 12:43:43]  Response:
+1327 DEBUG [2013-11-19 12:43:43]  https StatusCode:200
+1327 DEBUG [2013-11-19 12:43:43]  Server:nginx/1.2.0
+1327 DEBUG [2013-11-19 12:43:43]  Date:Tue, 19 Nov 2013 04:43:44 GMT
+1327 DEBUG [2013-11-19 12:43:43]  Content-Type:text/plain;charset=UTF-8
+1327 DEBUG [2013-11-19 12:43:43]  Content-Length:117
+1327 DEBUG [2013-11-19 12:43:43]  Connection:keep-alive
+1327 DEBUG [2013-11-19 12:43:43]  Pragma:No-cache
+1327 DEBUG [2013-11-19 12:43:43]  Cache-Control:no-cache
+1327 DEBUG [2013-11-19 12:43:43]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+1327 DEBUG [2013-11-19 12:43:43]  Api-Server-IP:10.73.89.46
+1327 DEBUG [2013-11-19 12:43:43]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+1327 DEBUG [2013-11-19 12:43:43]  SINA-TS:NDg4OGMzNjggMCAxIDEgNyAzMDMK
+1327 DEBUG [2013-11-19 12:43:43]  {"access_token":"2.00DhZukC0nbQEb4e1ccefcfdJ2MgsC","remind_in":"157679999","expires_in":157679999,"uid":"2525460697"}
+
+0    DEBUG [2013-11-19 12:45:11]  Request:
+16   DEBUG [2013-11-19 12:45:11]  POSThttps://api.weibo.com/2/statuses/update.json
+47   DEBUG [2013-11-19 12:45:11]  Authorization: OAuth2 2.00DhZukC0nbQEb4e1ccefcfdJ2MgsC
+47   DEBUG [2013-11-19 12:45:11]  API-RemoteIP: 172.26.43.102
+671  DEBUG [2013-11-19 12:45:12]  Response:
+671  DEBUG [2013-11-19 12:45:12]  https StatusCode:200
+671  DEBUG [2013-11-19 12:45:12]  Server:nginx/1.2.0
+671  DEBUG [2013-11-19 12:45:12]  Date:Tue, 19 Nov 2013 04:45:13 GMT
+671  DEBUG [2013-11-19 12:45:12]  Content-Type:application/json;charset=UTF-8
+671  DEBUG [2013-11-19 12:45:12]  Transfer-Encoding:chunked
+671  DEBUG [2013-11-19 12:45:12]  Connection:keep-alive
+671  DEBUG [2013-11-19 12:45:12]  Api-Server-IP:10.77.108.44
+671  DEBUG [2013-11-19 12:45:12]  Vary:Accept-Encoding
+671  DEBUG [2013-11-19 12:45:12]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+671  DEBUG [2013-11-19 12:45:12]  SINA-TS:NDg4OGMzNjggMCAxIDEgNyAxOTMK
+671  WARN  [2013-11-19 12:45:12]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+671  DEBUG [2013-11-19 12:45:12]  {"created_at":"Tue Nov 19 12:45:12 +0800 2013","id":3646330137929209,"mid":"3646330137929209","idstr":"3646330137929209","text":"111","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2525460697,"idstr":"2525460697","class":1,"screen_name":"悲伤的一血","name":"悲伤的一血","province":"32","city":"1","location":"江苏 南京","description":"魔非魔，道非道，善恶在人心 情非情，欲非欲，姻缘由天定","url":"","profile_image_url":"http://tp2.sinaimg.cn/2525460697/50/5654838082/1","profile_url":"u/2525460697","domain":"","weihao":"","gender":"m","followers_count":16,"friends_count":11,"statuses_count":30,"favourites_count":0,"created_at":"Sat Mar 31 17:58:41 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp2.sinaimg.cn/2525460697/180/5654838082/1","avatar_hd":"http://tp2.sinaimg.cn/2525460697/180/5654838082/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":5,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+702  INFO  [2013-11-19 12:45:12]  Status [user=User [id=2525460697, screenName=悲伤的一血, name=悲伤的一血, province=32, city=1, location=江苏 南京, description=魔非魔，道非道，善恶在人心 情非情，欲非欲，姻缘由天定, url=, profileImageUrl=http://tp2.sinaimg.cn/2525460697/50/5654838082/1, userDomain=, gender=m, followersCount=16, friendsCount=11, statusesCount=30, favouritesCount=0, createdAt=Sat Mar 31 17:58:41 CST 2012, following=false, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=false, avatarLarge=http://tp2.sinaimg.cn/2525460697/180/5654838082/1, onlineStatus=0, status=null, biFollowersCount=5, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=], idstr=3646330137929209, createdAt=Tue Nov 19 12:45:12 CST 2013, id=3646330137929209, text=111, source=Source [url=http://open.weibo.com, relationShip=nofollow, name=未通过审核应用], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=, bmiddlePic=, originalPic=, retweetedStatus=null, geo=null, latitude=-1.0, longitude=-1.0, repostsCount=0, commentsCount=0, mid=3646330137929209, annotations=, mlevel=0, visible=Visible [type=0, list_id=0]]
+0    DEBUG [2013-11-19 17:28:28]  Request:
+0    DEBUG [2013-11-19 17:28:28]  POSThttps://api.weibo.com/2/statuses/update.json
+93   DEBUG [2013-11-19 17:28:28]  Authorization: OAuth2 2.00sd2jTCi8kubC8627e857ea0KIS6x
+93   DEBUG [2013-11-19 17:28:28]  API-RemoteIP: 172.26.43.102
+1159 DEBUG [2013-11-19 17:28:29]  Response:
+1159 DEBUG [2013-11-19 17:28:29]  https StatusCode:200
+1159 DEBUG [2013-11-19 17:28:29]  Server:nginx/1.2.0
+1159 DEBUG [2013-11-19 17:28:29]  Date:Tue, 19 Nov 2013 09:28:30 GMT
+1159 DEBUG [2013-11-19 17:28:29]  Content-Type:application/json;charset=UTF-8
+1159 DEBUG [2013-11-19 17:28:29]  Transfer-Encoding:chunked
+1159 DEBUG [2013-11-19 17:28:29]  Connection:keep-alive
+1159 DEBUG [2013-11-19 17:28:29]  Api-Server-IP:10.77.108.37
+1160 DEBUG [2013-11-19 17:28:29]  Vary:Accept-Encoding
+1160 DEBUG [2013-11-19 17:28:29]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+1160 DEBUG [2013-11-19 17:28:29]  SINA-TS:NGI4OGMzNjggMCAxIDEgNyAxNzQK
+1162 WARN  [2013-11-19 17:28:29]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+1163 DEBUG [2013-11-19 17:28:29]  {"created_at":"Tue Nov 19 17:28:28 +0800 2013","id":3646401428848078,"mid":"3646401428848078","idstr":"3646401428848078","text":"heiio, world!","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2271587364,"idstr":"2271587364","class":1,"screen_name":"风聆尺素","name":"风聆尺素","province":"32","city":"9","location":"江苏 盐城","description":"","url":"","profile_image_url":"http://tp1.sinaimg.cn/2271587364/50/5606966675/1","profile_url":"u/2271587364","domain":"","weihao":"","gender":"m","followers_count":8,"friends_count":10,"statuses_count":29,"favourites_count":1,"created_at":"Wed Jul 27 20:28:43 +0800 2011","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2271587364/180/5606966675/1","avatar_hd":"http://tp1.sinaimg.cn/2271587364/180/5606966675/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":0,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+0    INFO  [2013-11-19 17:30:25]  code: 525ec6ade16971982b6ef3715c32747e
+16   DEBUG [2013-11-19 17:30:25]  Request:
+16   DEBUG [2013-11-19 17:30:25]  POSThttps://api.weibo.com/oauth2/access_token
+890  DEBUG [2013-11-19 17:30:26]  Response:
+890  DEBUG [2013-11-19 17:30:26]  https StatusCode:200
+890  DEBUG [2013-11-19 17:30:26]  Server:nginx/1.2.0
+890  DEBUG [2013-11-19 17:30:26]  Date:Tue, 19 Nov 2013 09:30:27 GMT
+890  DEBUG [2013-11-19 17:30:26]  Content-Type:text/plain;charset=UTF-8
+890  DEBUG [2013-11-19 17:30:26]  Content-Length:117
+890  DEBUG [2013-11-19 17:30:26]  Connection:keep-alive
+890  DEBUG [2013-11-19 17:30:26]  Pragma:No-cache
+890  DEBUG [2013-11-19 17:30:26]  Cache-Control:no-cache
+890  DEBUG [2013-11-19 17:30:26]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+890  DEBUG [2013-11-19 17:30:26]  Api-Server-IP:10.75.25.114
+890  DEBUG [2013-11-19 17:30:26]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+906  DEBUG [2013-11-19 17:30:26]  SINA-TS:NGE4OGMzNjggMCAxIDEgNyAzOTYK
+984  DEBUG [2013-11-19 17:30:26]  {"access_token":"2.00DhZukC0nbQEb4e1ccefcfdJ2MgsC","remind_in":"157679999","expires_in":157679999,"uid":"2525460697"}
+
+0    DEBUG [2013-11-19 18:05:07]  Request:
+0    DEBUG [2013-11-19 18:05:07]  POSThttps://api.weibo.com/2/statuses/update.json
+38   DEBUG [2013-11-19 18:05:07]  Authorization: OAuth2 2.00DhZukC0nbQEb4e1ccefcfdJ2MgsC
+38   DEBUG [2013-11-19 18:05:07]  API-RemoteIP: 172.26.43.102
+1429 DEBUG [2013-11-19 18:05:09]  Response:
+1429 DEBUG [2013-11-19 18:05:09]  https StatusCode:200
+1429 DEBUG [2013-11-19 18:05:09]  Server:nginx/1.2.0
+1429 DEBUG [2013-11-19 18:05:09]  Date:Tue, 19 Nov 2013 10:05:10 GMT
+1430 DEBUG [2013-11-19 18:05:09]  Content-Type:application/json;charset=UTF-8
+1430 DEBUG [2013-11-19 18:05:09]  Transfer-Encoding:chunked
+1430 DEBUG [2013-11-19 18:05:09]  Connection:keep-alive
+1430 DEBUG [2013-11-19 18:05:09]  Api-Server-IP:10.77.108.50
+1430 DEBUG [2013-11-19 18:05:09]  Vary:Accept-Encoding
+1430 DEBUG [2013-11-19 18:05:09]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+1430 DEBUG [2013-11-19 18:05:09]  SINA-TS:NGQ4OGMzNjggMCAyIDEgNyAzNDcK
+1433 WARN  [2013-11-19 18:05:09]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+1434 DEBUG [2013-11-19 18:05:09]  {"created_at":"Tue Nov 19 18:05:08 +0800 2013","id":3646410655967668,"mid":"3646410655967668","idstr":"3646410655967668","text":"heiio, world!","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2525460697,"idstr":"2525460697","class":1,"screen_name":"悲伤的一血","name":"悲伤的一血","province":"32","city":"1","location":"江苏 南京","description":"魔非魔，道非道，善恶在人心 情非情，欲非欲，姻缘由天定","url":"","profile_image_url":"http://tp2.sinaimg.cn/2525460697/50/5654838082/1","profile_url":"u/2525460697","domain":"","weihao":"","gender":"m","followers_count":16,"friends_count":11,"statuses_count":31,"favourites_count":0,"created_at":"Sat Mar 31 17:58:41 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp2.sinaimg.cn/2525460697/180/5654838082/1","avatar_hd":"http://tp2.sinaimg.cn/2525460697/180/5654838082/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":5,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
+0    DEBUG [2013-11-19 18:37:20]  Request:
+0    DEBUG [2013-11-19 18:37:20]  POSThttps://api.weibo.com/2/statuses/update.json
+467  DEBUG [2013-11-19 18:37:20]  Authorization: OAuth2 2.00DhZukC0nbQEb4e1ccefcfdJ2MgsC
+467  DEBUG [2013-11-19 18:37:20]  API-RemoteIP: 172.26.43.102
+1616 DEBUG [2013-11-19 18:37:21]  Response:
+1616 DEBUG [2013-11-19 18:37:21]  https StatusCode:200
+1616 DEBUG [2013-11-19 18:37:21]  Server:nginx/1.2.0
+1616 DEBUG [2013-11-19 18:37:21]  Date:Tue, 19 Nov 2013 10:37:22 GMT
+1616 DEBUG [2013-11-19 18:37:21]  Content-Type:application/json;charset=UTF-8
+1617 DEBUG [2013-11-19 18:37:21]  Transfer-Encoding:chunked
+1617 DEBUG [2013-11-19 18:37:21]  Connection:keep-alive
+1617 DEBUG [2013-11-19 18:37:21]  Api-Server-IP:10.77.108.39
+1617 DEBUG [2013-11-19 18:37:21]  Vary:Accept-Encoding
+1617 DEBUG [2013-11-19 18:37:21]  SINA-LB:c3NsLjEzMi5nMS5xaC5sYi5zaW5hbm9kZS5jb20=
+1618 DEBUG [2013-11-19 18:37:21]  SINA-TS:NDg4OGMzNjggMCAxIDEgNiAyOTcK
+1626 WARN  [2013-11-19 18:37:21]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+1627 DEBUG [2013-11-19 18:37:21]  {"created_at":"Tue Nov 19 18:37:21 +0800 2013","id":3646418759359973,"mid":"3646418759359973","idstr":"3646418759359973","text":"heiio, world!","source":"<a href=\"http://open.weibo.com\" rel=\"nofollow\">未通过审核应用</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2525460697,"idstr":"2525460697","class":1,"screen_name":"悲伤的一血","name":"悲伤的一血","province":"32","city":"1","location":"江苏 南京","description":"魔非魔，道非道，善恶在人心 情非情，欲非欲，姻缘由天定","url":"","profile_image_url":"http://tp2.sinaimg.cn/2525460697/50/5654838082/1","profile_url":"u/2525460697","domain":"","weihao":"","gender":"m","followers_count":16,"friends_count":11,"statuses_count":31,"favourites_count":0,"created_at":"Sat Mar 31 17:58:41 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp2.sinaimg.cn/2525460697/180/5654838082/1","avatar_hd":"http://tp2.sinaimg.cn/2525460697/180/5654838082/1","verified_reason":"","follow_me":false,"online_status":0,"bi_followers_count":5,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0},"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}}
+
